@@ -1,0 +1,670 @@
+@import "fonts/hfjFonts.css";
+.cxdialog{position:fixed;top:35%;left:50%;overflow:hidden;width:466px;margin:0;padding:0;border:none;border-radius:8px;background:#fff;box-shadow:0 1px 6px rgba(0,0,0,0.6);color:#333;font-family:"Gotham 4r",Helvetica,Arial,sans-serif;z-index:10002;
+_position:absolute;
+_width:360px;
+_height:140px;
+}
+.cxdialog > a[rev="close"]{position:absolute;top:0;right:0;width:30px;height:30px;color:#b0b0b0;text-align:center;text-decoration:none;cursor:pointer;
+*font-size:12px;    margin: 6px 0px;display: none;
+}
+.cxdialog > a[rev="close"]:before{}
+.cxdialog > a[rev="close"]:hover{}
+
+.cxdialog_title{
+    color: #333;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 30px;
+      text-indent: 10px;
+      font-family: "Gotham 5r",Helvetica,Arial,sans-serif;
+      font-weight: bold;
+      padding:10px 10px 0px 10px;
+    }
+.cxdialog_info{overflow:hidden; padding: 15px 24px 0px 24px; min-height:40px; font-size:14px;line-height:1.6;font-family:"Gotham 4r",Helvetica,Arial,sans-serif}
+.cxdialog_btns{overflow:hidden;padding:10px;border-top:none;text-align:right;}
+.cxdialog_btns a{display:inline-block;position:relative;padding:0 1em;border:none;border-radius:3px;color:#fff;font-weight:bold;font-size:14px;line-height:28px;text-decoration:none;cursor:pointer;font-family: "Gotham 4r",Helvetica,Arial,sans-serif;}
+.cxdialog_btns a:hover{background:#999;}
+.cxdialog_btns a + a{margin-left:10px;}
+
+.cxdialog_overlay{display:none;overflow:hidden;position:fixed;top:0;left:0;width:100%;height:100%;z-index:10001;
+/*filter:alpha(opacity=60);
+opacity:0.6;*/
+_position:absolute;
+}
+
+.cxdialog_btns a.btn_ok {
+    background: #00B2C9;
+    float: right;
+    margin-left: 10px;
+}
+
+.cxdialog_btns a.btn_no {
+    background-color: #ffffff;
+    border: solid 1px #e2e2e2;
+    color:#999999;
+}
+
+.cxdialog_lock{overflow:hidden !important;width:auto;}
+
+.VPAS-CreateMerchantGroup-merchant-details-cancel-style-button{
+    width: 124px;
+    height: 34px;
+    font-size:14px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #e2e2e2;
+    font-family: 'Gotham 4r',Helvetica,Arial,sans-serif;
+    color: #454545;
+    float: left;
+}
+
+
+/*end dialog box*/
+.header-logo{
+  height: 86px; 
+  background-color: #195073;
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.1);
+}
+.header-label{
+  height: 70px;   
+  background-color: #195073;
+}
+.label{
+  height: 54px;
+  object-fit: contain;
+font-family: 'Gotham Thin',Helvetica,Arial,sans-serif;
+    font-size: 54px;
+    color: #ffffff;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.6px;
+  text-align: left; 
+      padding: 0px 20px;
+  margin-left: 20px;
+}
+.notif-icon{
+  background-color: #9b9b9b;
+  width: 29px;
+    height: 29px;
+    display: inline-block;
+    margin-right: 23px;
+    margin-bottom: 6px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: 4px;
+    background-image: url(../../images/user/notif-icon.png);
+}
+.user-profile-option{
+  width: 48px;
+    height: 48px;
+    background-color: #00a09f;
+    border: solid 1px #ffffff;
+    display: inline-block;
+    border-radius: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+.profile-icon .user_name_letter{
+  float: left;
+}
+.nav-icon-container{
+  position: absolute;
+    right: 30px;
+    top: 19px;
+}
+.user-details{
+  display: none;
+  width: 326px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+  border: solid 0.5px rgba(151, 151, 151, 0.56);
+  top: 80px;
+  position: absolute;
+  right: 10px;
+  padding-bottom: 20px;
+  z-index: 1;
+}
+#header .user-details .role{
+      font-size: 15px;
+    font-family: 'Gotham 4r',Helvetica,Arial,sans-serif;
+    display: inline-block;
+    margin-top: 5px;
+}
+#header .user-details .name{ 
+  font-family: Gotham;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4a4a4a;
+  display: block;
+  font-family: 'Gotham 5r',Helvetica,Arial,sans-serif;
+  text-transform: capitalize;  
+  height: 20px;
+  overflow: hidden; 
+}
+.profile-icon{  
+  display: inline-block;
+  padding: 20px 0px 1px 24px;
+  width: 90%;
+}
+.notificationIcon .profile-icon{
+  display: block !important;
+}
+.action-nav{
+  width: 68%;
+  display: inline-block;
+  left: 104px;
+  position: relative;
+}
+.profile-dtl{
+    top: 17px;
+    position: relative;
+    max-height: 50px;
+    margin-left: 10px;
+    float: right;
+    width: 210px;
+}
+.user-details .user-profile-option{
+  margin-right: 24px;
+}
+/*.user-profile-option span{
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  
+}*/
+.action-nav a{
+  display: block;  
+  object-fit: contain;
+  font-family: 'Gotham 5r',Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3918e6;
+  text-decoration: underline;
+  margin-bottom: 16px;
+}
+#header .user-details hr{
+  width: 80%;
+}
+#header .sign-out-btn{
+  width: 120px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #e2e2e2;
+  margin-left: 103px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .ui-datepicker {
+  background-color: #fff;
+  border: 1px solid #66AFE9;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(102,175,233,.6);
+  display: none;
+  margin-top: 4px;
+  padding: 10px;
+  width: 306px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.22);
+  border-style: solid;
+  border-width: 0.5px;
+  border-image-source: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4) 5%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0));
+  border-image-slice: 1;
+}
+.ui-datepicker a,
+.ui-datepicker a:hover {
+  text-decoration: none;
+  cursor:pointer;
+}
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-unselectable,.ui-datepicker .ui-datepicker-calendar .ui-datepicker-unselectable:hover,.ui-datepicker .ui-state-disabled:hover,.ui-datepicker .ui-state-disabled {
+  text-decoration: none;
+    color: #000 !important;
+    font-size: 12px;
+}
+/*.ui-datepicker a:hover{
+  color: #2A6496;
+   background-color: #fe6d35;
+   border-radius:100%;
+  -webkit-transition: color 0.1s ease-in-out;
+     -moz-transition: color 0.1s ease-in-out;
+       -o-transition: color 0.1s ease-in-out;
+          transition: color 0.1s ease-in-out;
+}*/
+.ui-datepicker .ui-datepicker-header {
+  margin-bottom: 5px;
+    text-align: center;
+    margin-top: 5px;
+}
+.ui-datepicker .ui-datepicker-title {
+  color:rgba(0, 0, 0, 0.87);
+  font-size:14px;
+  font-family: 'Gotham 5r',Helvetica,Arial,sans-serif;
+}
+.ui-datepicker .ui-datepicker-next {
+  background:url(../../images/next.png) no-repeat right center;
+
+  height: 14px;
+  width: 16px;
+  margin-right:4px;
+}
+.ui-datepicker .ui-datepicker-prev{
+  background:url(../../images/prev.png) no-repeat right center;
+
+  height: 14px;
+  width: 16px;
+  margin-left:10px;
+}
+.ui-datepicker-prev.ui-state-disabled {
+  visibility:hidden;
+}
+.ui-datepicker .ui-datepicker-prev {
+  float: left;
+  text-align: left;
+}
+.ui-datepicker .ui-datepicker-next {
+  float: right;
+  text-align: right;
+}
+
+.ui-datepicker .ui-icon {
+  display: none;
+}
+.ui-datepicker .ui-datepicker-calendar {
+  table-layout: fixed;
+  width: 100%;
+}
+/*.ui-datepicker .ui-state-highlight{
+  width: 32px;
+  height: 32px;
+  background-color: #fe6d35;
+  border: 1px solid #fe6d35;
+    color: #ffffff;
+    border-radius:32px;
+    padding:5px 10px;
+}*/
+.ui-datepicker .ui-datepicker-calendar th,
+.ui-datepicker .ui-datepicker-calendar td {
+  text-align: center;
+  padding: 0px 0;
+}
+/*.ui-datepicker .ui-datepicker-calendar td {
+  border-radius: 100%;
+  -webkit-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+     -moz-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+       -o-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+          transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+}*/
+.ui-datepicker .ui-datepicker-calendar td:hover {
+  color:#fff !important;
+}
+.ui-datepicker .ui-datepicker-calendar td a {
+  text-decoration: none;
+  color:#000;
+  font-size: 11px;
+  width: 27px;
+    height: 27px;
+    display: inline-block;
+    line-height: 27px;
+    font-family: 'Gotham 5r',Helvetica,Arial,sans-serif;
+ 
+}
+.ui-datepicker .ui-datepicker-current-day a,  a.ui-state-default.ui-state-active, .ui-datepicker .ui-datepicker-calendar a:hover{
+   background-color: #fe6d35;
+   border-radius:100%;
+  -webkit-transition: color 0.1s ease-in-out;
+     -moz-transition: color 0.1s ease-in-out;
+       -o-transition: color 0.1s ease-in-out;
+          transition: color 0.1s ease-in-out;
+   color:#fff !important;
+}
+
+.ui-datepicker-calendar th span{
+  text-decoration: none;
+  color:#919191;
+  font-size: 12px;
+    width: 25px;
+  height: 25px;
+  font-family: 'Gotham 5r',Helvetica,Arial,sans-serif;
+  display:inline-block;
+  line-height:25px;
+}
+.ui-datepicker .ui-datepicker-current-day a {
+  color: #fff
+}
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-unselectable:hover, .ui-datepicker .ui-datepicker-calendar .ui-datepicker-unselectable {
+  background-color: #fff;
+  cursor: default;
+  color:#e2e2e2 !important;
+}
+.hide{
+  display: none;
+}
+.box-overlay{
+      background-color: #FFFFFF;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1100;
+    opacity: 0.5;
+}
+.box-loading div {
+    background: url(../../images/loader.gif) no-repeat scroll 0 0 transparent;
+    height: 480px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40px;
+  }
+  .box-loading {
+    display: block;
+    height: 33px;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    width: 32px;
+    z-index: 1104;
+  }
+.Office-placement-container{
+    width: 300px;
+}
+.Office-placement-container button.ms-choice {
+    height: 40px;
+}
+.Office-placement-container button.ms-choice span{
+   padding: 0px;
+    font-family:"Gotham 4r",Helvetica,Arial,sans-serif;
+    font-size:14px;
+}
+.Office-placement-container .ms-drop ul > li label{
+   height: 33px;
+}
+
+.Office-placement-container input.checkboxVendorStyle {
+    width: 0px;
+    position: absolute;
+    visibility: hidden;
+}
+.Office-placement-container .ms-drop li span.checkboxPlaceHolder {
+    margin-right: 8px;
+    margin-left: 0px;
+    display: inline;
+    font-family: FontAwesome !important;
+    font-size: 22px;
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+    line-height: 20px;
+}
+.Office-placement-container input.checkboxVendorStyle:checked+span.checkboxPlaceHolder:before {
+    content: "\f14a";
+    color: #fe6d35;
+}
+
+.Office-placement-container input.checkboxVendorStyle+span.checkboxPlaceHolder:before {
+    content: "\f096";
+    font-size: 22px;
+    color: #d6d6d6;
+}
+
+.header-home-logo{      
+  color: #ffffff;
+  width: 80%;
+  float: left;
+  font-family: 'Gotham 4r',Helvetica,Arial,sans-serif;
+  font-size: 32px;
+  font-weight: 200;
+  letter-spacing: -0.9px;
+}
+.logo-home-icon{
+  font-size: 38px;
+}
+.logo-home-icon i{
+  color: #ffffff;
+  margin: 20px 0px 20px 20px;
+}
+.header-home-name{        
+    height: 32px;
+    font-family: Gotham;
+    font-size: 32px;
+    font-weight: 200;
+}
+.header-home-logo a{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Gotham 4r',Helvetica,Arial,sans-serif;
+}
+.header-k-link-logo{
+    width: 80%;
+    float: left;
+    font-size: 32px;
+    font-weight:normal;
+    font-family: 'Gotham Thin',Helvetica,Arial,sans-serif;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Gotham 4r",Helvetica,Arial,sans-serif;
+}
+.header-k-link-logo .logo_image{
+         background: url(../../images/merchandising/kohls-logo.png);
+    width: 158px;
+    height: 23px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 6px;
+}
+.oval_letter {
+    font-family: 'Gotham 7r',Helvetica,Arial,sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    float: left;
+    margin-top: 8px;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+}
+/*header left arrow css*/
+.header-leftarrow-icon{
+      background-image: url(../../images/ic-leftarrow.png);
+    background-repeat: no-repeat;
+        background-position: -1px -7px;
+    font-size: 28px; 
+    display: inline-block;
+    height: 32px;
+    width: 32px; 
+      -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari 3-8 */
+    transform: rotate(180deg);
+}
+.header-logo-user-name{
+font-weight:bold;
+    text-transform: capitalize;
+
+}
+body{
+  margin:0px;
+}
+.#noNotification{
+    display:block;
+}
+.Office-placement-container .ms-drop li span{
+  margin-left: 0px;
+  width: 220px;
+}
+.Dashboard-disabled{
+  color: #bdbdb8;
+}
+#managUserFilterSection .dropdown-content li{
+  float: left;
+}
+.showErrorMeassageSearch{
+  font-family: 'Gotham 4r',Helvetica,Arial,sans-serif;
+  margin-top: 20px;
+  color: #ff0000;
+}
+/******************************* USER DASHBOARD LANDING PAGE START ****************************/
+#landingHeaderContainer{
+  height: 64px;
+}
+.kLinkLogo{
+    height: 47.8px;
+    background-image: url(../../images/user/k-linkby-kohls-logo@3x.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 40px 14px;
+    width: 13%;
+    float: left;
+    background-size: 125px 32px;
+}
+.navigationContainer{
+   width: 68%;
+      
+   top: 25px;
+   float: left;
+   position: relative;
+   text-align: right;
+}
+
+#landingHeaderContainer .notificationIcon{
+    width: 14%;
+    position: relative;
+    top: 10px;
+    float: right;
+     
+}
+#landingHeaderContainer .loading{
+  background-image: url(../../images/loader.gif) !important;  
+}
+#landingHeaderContainer .notification_icon{
+  background-image: url(../../images/user/ic-notifications-o@3x.png);  
+  background-size: 30px 30px;
+}
+#landingHeaderContainer .notify_count{
+  right: 12px;
+  top: -3px;
+}
+#landingHeaderContainer .profile-icon{
+  padding: 0px;
+}
+#landingHeaderContainer .search_image{
+   background-image: url(../../images/user/ic-search@3x.png);
+}
+#landingHeaderContainer .VPAS-MerchantGroupHeader-header-nav{
+  float: left;
+  right: 18px;
+  position: relative;
+  top: 5px;
+}
+#landingHeaderContainer .navigationContainer span{
+  font-family: 'Gotham 7r',Helvetica,Arial,sans-serif;
+  padding-right: 24px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.welcomeUser{
+ /* width: 100%;
+  height: 235px;
+  background: linear-gradient(110deg, #00b0c7 60%, #83227b 60%);*/
+  position: relative;
+   
+}
+#userName{
+  font-family: 'Gotham 7r',Helvetica,Arial,sans-serif;
+  font-size: 68px;  
+  line-height: normal;
+  letter-spacing: -2px;
+  text-align: left;
+  color: #ffffff;
+  position: relative;
+  top: -115px;
+  left: 40px;
+  width: 86%;
+  height: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: -20px;
+}
+.userDashboarNotificaiton .reportbuilder_notificationbox {
+  top:50px !important;
+}
+.navigationContainer a{
+  color: #1a1a1a;
+}
+.vendorGuidline{
+  float: right;
+  position: relative;
+  right: 40px;
+}
+#landingHeaderContainer .user-profile-option{
+  width: 36px;
+  height: 36px;
+}
+#landingHeaderContainer .oval_letter{
+  margin-top: 2px;
+  margin-left: 12px;
+  width: 0px;
+}
+.vendorReports{ 
+  position: relative;
+  right: 40px;
+}
+.userNameLetter{
+  color: white;
+  position: relative;
+  font-size: 26px;
+  text-align: center;
+  font-family: 'Gotham 7r',Helvetica,Arial,sans-serif;
+  top: 5px;
+  text-transform: uppercase;
+}
+/******************************* USER DASHBOARD LANDING PAGE END ****************************/
+
+#vendorProfileContainer .Office-placement-container{
+  width: 325px;
+}

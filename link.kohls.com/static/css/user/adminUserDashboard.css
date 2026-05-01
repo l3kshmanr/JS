@@ -1,0 +1,629 @@
+/*VendorUser*/
+.header {
+  width: 100%;
+  height: 86px;
+  object-fit: contain;
+  background-color: #195073;
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.1);
+} 
+.header-container .home-icon{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    left: 44px;
+    position: relative;
+    top:25px;    
+}
+.arrow-icon{
+  left:80px;
+  object-fit: contain;
+  position: relative;
+    top:29px;  
+}
+.group-name{
+  position: relative;
+    color: white;
+    font-size: 30px;
+    left: 8.3%;
+    top: 22px;
+}
+.container{
+  margin-left: 7.7%;
+  margin-top: 30px;
+  margin-right: 56px;
+}
+.container .userName{
+  object-fit: contain;
+  font-family: 'Gotham Thin',Helvetica,Arial,sans-serif;
+  font-size: 32px;
+  font-weight: 300; 
+  line-height: 0.88;
+  letter-spacing: -0.6px;
+  text-align: left;
+  color: #454545;
+}
+.roleContainer.role{
+   font-family: 'Gotham',Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #454545;
+  color: var(--textblack);
+}
+.userDetails .roleLabel,.userDetails .companyLabel,.userDetails .emailLabel{
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;   
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #454545;
+  font-family:"Gotham 5r",Helvetica,Arial,sans-serif;
+  padding-right: 8px;
+}
+.userDetails .role,.userDetails .company,.userDetails .email{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+    font-family:"Gotham 4r",Helvetica,Arial,sans-serif;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #454545;
+}
+.roleContainer,.companyContainer,.emailContainer{
+  margin-top: 5px;
+}
+.adminRights{
+    object-fit: contain;
+ font-family: 'Gotham',Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #454545;
+}
+.rightsContainer{
+  margin-top: 9px;
+}
+.userList{
+  margin-top: 51px;
+  padding-bottom: 30px;
+}
+.addUserBtn{
+    width: 65px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #e2e2e2; 
+    display: inline-block;
+    text-align: center;
+    padding:5px 0px;
+    margin-left:15px;
+    color: #454545; 
+}
+.addText{
+  font-size: 15px;
+    position: relative;
+    bottom: 2px;
+      font-family:"Gotham 4r",Helvetica,Arial,sans-serif;
+}
+.addUserBtn .addicon{
+  color: #e2680e;
+}
+.userListTable{
+  width: 100%;
+  border-collapse: collapse;
+}
+.userListTable thead th,.userListTable tr td{
+  text-align: left;   
+  color: #454545;
+  padding: 15px 0px 17px 25px;
+  font-family: "Gotham 4r",Helvetica,Arial,sans-serif;
+}
+.userListTable thead th{
+      text-align: left;
+    color: #000;
+    line-height: 11px;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 11px;
+     font-family: 'Gotham',Helvetica,Arial,sans-serif;
+    padding: 18px 0px 18px 25px;
+}
+.userListDetailContainer{
+  margin-top: 25px;
+}
+.userListTable table, tr {
+    border: 1px solid #cbcbcb;
+    font-weight: bold;
+}
+#dashboard.searchUser{
+  /*border-bottom: 1px solid gray;*/
+  border-bottom: none !important; 
+  padding-bottom: 16px;
+}
+.userDetails{
+  padding-top: 10px;
+}
+.searchUser p, .vendor-invite-container > p {
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.78;
+  letter-spacing: normal;
+  text-align: left;
+  color: #454545;
+  font-family: "Gotham medium",Helvetica,Arial,sans-serif;
+}
+
+.vendor-invite-container > p {
+    margin-top: 30px;
+}
+
+.vendor-invite-container {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.searchText{
+    width: 300px;
+    height: 38px;
+    object-fit: contain;
+   border:0px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(226, 217, 217, 0.5)), linear-gradient(#ffffff, #ffffff);
+    /*border: solid 1px #e2e2e2;
+     border-radius: 0px 4px 4px 0px;
+*/    color: #4a4a4a;
+    padding-left: 20px;
+}
+.findBtn, .vendor-invite-add-btn, .vendor-invite-send-btn {
+  width: 50px;  
+  border-radius: 4px;
+  background-color: #00B2C9;
+  display: inline-block;
+ /* position: relative;  */
+  text-align: center;
+  float: left;
+  text-transform: uppercase;
+  color: white;
+  padding: 6px;
+  border-style: none;
+  height: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.placementDtlContainer span{
+  display: block;
+   font-family: 'Gotham',Helvetica,Arial,sans-serif;
+  font-size: 18px;  
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #454545;
+  float:left;
+  padding-bottom: 10px;
+}
+.placementHeading{
+  font-family: 'Gotham 4r',Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.92;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #454545;
+}
+.placementDtlContainer{
+  padding-top: 30px;
+}
+.dltUser{
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #e2e2e2;
+  height: 32px;
+  width: 157px;
+  float: right;
+}
+/*VendorUser*/
+
+/*KOHLS ADMIN USER*/
+.TypeOptnContainer{
+ /* float:left;*/
+    display: inline-block;
+ /* width: 15%;
+  display: inline-block;
+  height: 33px;
+  position: relative;
+  bottom: 12px;*/
+}
+.searchUserElm{
+  float:right;
+  /*width: 83%;*/
+  /*display: inline-block;*/
+ /* position: relative;
+  bottom: 12px;*/
+}
+.userTypeOptn li{
+  list-style-type: none;
+  display: none;
+}
+.TypeOptnContainer select{
+  width: 111px;
+  height: 38px; 
+  background-color: #ffffff;
+  border:0px;
+  border-right: solid 1px #e2e2e2; 
+  letter-spacing: -0.4px;  
+  color: #454545;
+   font-family: 'Gotham 4r',Helvetica,Arial,sans-serif;
+  -webkit-appearance: none;
+   font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  -moz-appearance: none;
+  font-size: 18px;
+  background-position:94px 12px;
+  background-repeat: no-repeat;
+  background-image: url(../../images/user/sort-arrow.png); 
+    padding-left: 10px;
+}
+.filterOptnCnt{
+  width: 75%;
+  margin-top: 30px;
+      height: auto;
+    overflow: hidden;
+}
+.profileReqHeader{
+  width: 285px;
+  height: 28px;
+  object-fit: contain;
+ font-family: 'Gotham',Helvetica,Arial,sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.78;
+  letter-spacing: -0.7px;
+  text-align: left;
+  color: #454545;
+}
+.userListFilterCntn{
+  height: 64px;
+  border: solid 1px #e1e1e1;
+  background-color: rgba(25, 80, 115, 0.05);
+}
+.filterByRole.changed, .filterByType.changed{
+  background-color: #a0caff;
+  color: white;
+}
+.filterByRole, .filterByType
+{
+    background-color: white;
+    color: #087192;
+    width: 152px;
+    height: 30px;
+    border: solid 1px #e1e1e1;
+    border-radius: 15px;
+    position: relative;
+    top: 17px;
+    left: 16px;
+    font-weight: bold;
+    text-align-last: center;    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-repeat: no-repeat;
+    background-position: right
+}
+.notifContainer .heading{
+   font-family: 'Gotham 5r',Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.92;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #454545;
+}
+.notifContainer{      
+    width: 644px;
+    height:auto;
+        margin-top: 30px;
+    object-fit: contain;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+    border: solid 1px #e1e1e1;
+    padding: 30px 24px;
+}
+.notification{
+ font-family: 'Gotham 5r',Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #454545; 
+  padding: 30px 0 30px;
+}
+
+.createNotif{
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-align: left;
+    font-weight: normal;
+    font-family: 'Gotham 4r',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: #454545;
+    font-size: 18px;
+    width: 448px;
+    height: 36px;
+}
+.userListTable.admin-dasbhoard-user-list tbody tr td:last-child {
+  background-repeat: no-repeat;
+  background-image: url(../../images/user/show.png);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    border: 1px solid #e1e1e1;
+    z-index: 1;
+    width: 60.2%;
+    left: -126px;
+}
+.dropdown-content li {
+    cursor: pointer;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 74%;
+    float: right;
+}
+.add-icon{
+    background-image: url(../../images/user/add.png);
+    width: 33px;
+    height: 32px;
+    float: right;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.hide{
+  display: none;
+}
+.system-notification .createdBy,.timeFrame .label,.email .label{
+  font-family: 'Gotham 5r',Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #454545;
+  padding: 0px;
+      text-transform: capitalize;
+}
+.createdBy,.timeFrame,.email{
+  margin-left:15px;
+}
+.label{
+  margin-left:0px;
+}
+.edit,.delete{
+  width: 43px;
+  height: 18px;
+  object-fit: contain;
+   font-family: 'Gotham 4r',Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #454545;
+}
+.system-notification .btn-container .edit{
+  background-image: url(../../images/user/edit.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.system-notification .btn-container .edit .edit-icon{
+  background-position: 10px -3px;
+}
+.system-notification .btn-container .delete{
+  background-image: url(../../images/user/dismiss-orange.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-position: 10px -3px;
+}
+.btn-container .edit, .btn-container .delete{
+  width: 100%;
+  height: 100%;
+  display: inline;
+}
+.btn-container .edit span:nth-child(2), .btn-container .delete span:nth-child(2){
+  margin-left: 38px;
+  font-family: 'Gotham 5r',Helvetica,Arial,sans-serif;
+}
+.description{
+      padding: 30px 15px;
+    letter-spacing: -0.4px;
+    font-size: 18px; 
+    color: #454545;
+     font-family: 'Gotham 4r',Helvetica,Arial,sans-serif;
+}
+.btn-container .edit{
+  padding-right: 60px;
+}
+.btn-container{
+      padding: 14px 20px;
+          border-top: solid 1px #e2e2e2;
+            border-bottom: solid 1px #e2e2e2;
+}
+.system-notification >div{
+  margin-left: 30px;
+}
+.created-container, .timeFrame, .email{
+  margin-bottom: 16px;
+}
+.created-container{
+  margin-top: 20px;
+}
+.msg-icon{
+  background-image: url(../../images/user/timeframe.png);
+    width: 24px;
+    height: 24px;
+    float: left;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+    background-size: 100%;
+}
+.notifContainer{
+  margin-bottom: 50px;
+}
+.timeFrame span:nth-child(2), .email span:nth-child(2){
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+   font-family: 'Gotham 3r',Helvetica,Arial,sans-serif;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #454545;
+  padding-left: 16px;
+}
+.userListFilterCntn span{
+    top: 17px;
+    left: -10px;
+    position: relative;
+    font-size: 18px;
+    color: #7aa5dc;
+}
+/*add notification*/
+
+
+.label-input-wrap{
+    border: solid 1px #e2e2e2;
+    width: 411px;
+    display: inline-block;
+    float: left;
+    height: 38px;
+    margin-bottom: 10px;
+}
+
+.roleLabel .companyLabel, .emailLabel{
+      font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #454545;
+    padding-right: 8px;
+}
+ 
+ .roleContainer,.companyContainer,.emailContainer{ 
+      padding: 2px 0px;
+}
+.searchUser .dropdown-content {
+    max-width: 412px;
+    left: 105px;
+    color: blue;
+ height: 80%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.searchUser .dropdown-content li {
+ color: #038de0;
+ width: 62%;
+    padding: 12px 20px;
+}
+
+.vendor-invite-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: none;
+    height: auto;
+}
+
+.vendor-invite-label {
+    margin: 0px 10px 0px 0px;
+    width: 175px;
+}
+
+.vendor-invite-label > label {
+    font-size: 18px;
+    height: 38px;
+}
+
+.vendor-invite-input {
+    border: solid 1px #e2e2e2;
+}
+
+.vendor-invite-add-btn, .vendor-invite-send-btn {
+    width: auto;
+    float: none;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+/* DA User */
+
+.DAPanel, .consumerBrandMappingPanel {
+  width: 644px;
+  height: auto;
+  margin-top: 30px;
+  object-fit: contain;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+  border: solid 1px #e1e1e1;
+  padding: 30px 24px;
+  margin-bottom: 50px;
+}
+
+.DAPanel .heading, .consumerBrandMappingPanel .heading {
+  font-family: 'Gotham 5r',Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.92;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #454545;
+}
+
+.list-all-dfmlinks a, .consumerBrandMappingPanel a {
+  display: block;
+  margin: 15px 0;
+  text-transform: capitalize;
+}
+
+.list-all-dfmlinks a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+}

@@ -1,0 +1,7 @@
+/*
+ * kohls.environment.js
+ * Genesis script for ground-floor bootstrap script
+ * Author: Bill Hubbard
+ */
+(function(){var E=this,G=E.$env,D=function(L,J){var K=E.$err&&$err.exec,M=function(){var O,R,N;L.$t=0;while(L.length){O=L.shift();R=O.ftn;if(K){N=O.opt||{};N.info=(N.info||"Genesis queue")+" ($env.q:"+L.$name+")";$err.exec(function P(){R.call(L)},N)}else{try{R.call(L)}catch(Q){if(E.console){console.error(Q)}}}}L.$done=true};if(J){M()}else{if(!L.$t){L.$t=setTimeout(M,10)}}},B=function(K,L,J){if(typeof L=="function"){K.push({ftn:L,opt:J});K.$n=(K.$n||0)+1;K.$nq=(K.$nq||0)+(K.$done?0:1)}},I=function(N,M,J){var K;if(N){K=I.q[N]=I.q[N]||[];K.$name=N;if(M){B(K,M,J)}if(!M||K.$done||typeof M=="boolean"){D(K,(M===true))}return }else{K=[];for(var L in I.q){K.push(L)}return K}};if(typeof G!="object"||!G.hasOwnProperty("$conflict")){I.$conflict=G;I.q={};I.loadCount=1;if(typeof G=="object"){for(var A in (G||{})){if(G.hasOwnProperty(A)){I[A]=G[A]}}}E.$env=I;var F="googletag",H="_googCsa";F=E[F]=E[F]||{};F.cmd=F.cmd||[];
+E[H]=E[H]||function C(){(E[H].q=E[H].q||[]).push(arguments)};E[H].t=1*new Date;I("Kjs",function(){$ready(function J(K){Kjs._(1200,function(){var M=!!F.pubadsReady,L;if(M&&K("#kohls-ad-wallpaper").length==0&&K("#dfp_top_ad div").length==0){F.pubads().refresh();L=true}return !!L},50)},{isAfterReady:true})})}else{G.loadCount++;G("Kjs",function(){$log.warn({msg:"msgMultipleEnv",count:G.loadCount})})}}).call((function(){return this})());

@@ -1,0 +1,391 @@
+.userDetails .roleLabel,.userDetails .oktalabel,.userDetails .tkLabel, .userDetails .titleLabel,.admin-role-dtl .label{
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;   
+  line-height: normal;
+  font-family:"Gotham 5r",Helvetica,Arial,sans-serif;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #454545;
+  padding-right: 8px;
+}
+.userDetails .role,.userDetails .oktaName,.userDetails .tkid,.userDetails .title{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+    font-family:"Gotham book",Helvetica,Arial,sans-serif;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #454545;
+}
+.roleContainer,.okta-dtl,.tk-dtl{
+  margin-top: 5px;
+}
+.adminRights{
+    object-fit: contain;
+  font-family: Gotham;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #454545;
+}
+.rightsContainer{
+  margin-top: 9px;
+}
+#userProfile{
+  padding-left:105px;
+}
+[data-assiged-departments]{
+  height: 27px;
+  font-family: "Gotham 4r",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: #454545;
+  display: block;
+  width: 30%;
+  cursor: pointer;
+}
+.dept-devide-line{
+  background-color: #e2e2e2;
+}
+.userDetails{
+  padding-bottom: 1px;
+}
+.department-container{
+  padding-top: 10px;
+}
+.department-container .label{
+ font-family: "Gotham 7r",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: bold;  
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #454545;
+  padding: 0px;
+}
+.department-container span:nth-child(2){
+  /*margin-top: 12px;*/
+}
+.addDpt{
+    width: 69px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #e2e2e2;
+    height: 32px;
+    margin-left: 16px;
+    background-image: url(../../images/user/add-icon.png);
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+    padding-left: 27px;
+    cursor: pointer;
+}
+.departmentListContainer{
+  min-width: 450px;
+  height: 555px;
+  padding-top: 18px;
+  object-fit: contain;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+}
+
+.dptLabel{
+  margin-top: 18px;
+   font-family: "Gotham 5r",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #454545;
+  margin-left: 15px;
+}
+[data-department-lookup]{
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(226, 217, 217, 0.5)), linear-gradient(#ffffff, #ffffff);
+  border: solid 1px #e2e2e2;
+  width: 300px;
+  height: 38px;
+}
+.dptBtnGo{
+  width: 50px;
+  height: 38px;
+  object-fit: contain;
+  border-radius: 4px;
+  background-color: #00B2C9;
+  border: none;
+  color: white;
+}
+.allDpt{
+  margin-top:16px;
+  margin-left: 15px;
+  font-family: "Gotham 4r",Helvetica,Arial,sans-serif;
+}
+.allDpt label{
+  font-family: "Gotham 5r",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #454545;
+}
+.search-dept {
+  margin-left: 15px;
+}
+#fancybox-content div{
+  /*overflow: hidden !important;*/
+}
+[data-department-list-item]{
+  list-style: none;
+}
+.allDpt ul{
+  max-height: 350px;
+  overflow: scroll;
+  width: 303px;
+  padding-left: 0px;
+  overflow-x: hidden;
+}
+.allDpt ul li{
+  width: 300px;
+  height: 32px; 
+  cursor: pointer;
+}
+.allDpt ul li:hover{
+   background-color: rgba(255, 109, 0, 0.05);
+    background-image: url(../../images/user/add-icon.png);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: 260px 1px;
+}
+.allDpt ul li:hover span{
+   display: block !important;
+}
+
+.allDpt ul::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    height: 100px;
+    background: #e2e2e2;
+}
+.allDpt ul::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background: #e2e2e2;
+    box-shadow: none;
+}
+.allDpt ul::-webkit-scrollbar {
+    width: 6px;
+    height: 13px;
+}
+.allDpt hr{
+    width: 70%;
+    margin-left: 0px;
+}
+.allDpt ul{
+  top:0px !important;
+}
+.getuserprofilemain .roleContainer {
+  position: relative;
+  width: 80%;
+}
+.getuserprofilemain .roleWrapper.active {
+  border-bottom: 1px solid #e2e2e2;
+  background-color: #fafafa;
+}
+.getuserprofilemain .roleWrapper {  
+  background-repeat: no-repeat;
+  background-position: 67px 0px;
+  background-image: url(../../images/user/ic-downarrow.png);  
+  cursor: pointer;
+  display: inline-block;
+  width: 93px;
+}
+.getuserprofilemain .roleWrappernonadmin {  
+  background-repeat: no-repeat;
+  background-position: 67px 0px;
+  display: inline-block;
+  width: 93px;
+}
+.user-role-option.active{
+  display: inline-block;
+  cursor: pointer;
+}
+.change-role-icon{
+  background-image: url(../../images/user/ic-downarrow.png);
+  height: 17px;
+  width: 24px;  
+  background-repeat: no-repeat;
+}
+ul.user-role-option{
+  position: absolute;
+  width: 73px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  padding-left: 19px;
+  left: 50px;
+  top: 24px;
+  display: none;
+}
+.user-role-option li{
+  display: block !important;
+  height: 32px;
+}
+[data-assiged-departments]:hover{
+  background-color: rgba(255, 109, 0, 0.05);  
+}
+.hide-elem{
+  display: none;
+}
+[data-assiged-departments]:hover .remove-dpt{
+  display: block !important;
+  background-image: url(../../images/user/dismiss-orange.png);
+  background-repeat: no-repeat;
+  background-position: 337px 1px; 
+  height: 25px;
+  margin-top: -20px; 
+}
+[name="adminRights"]{
+    width: 0px;
+    position: absolute;
+    visibility: hidden;
+}
+.checkboxPlaceHolder{
+    display: inline-block;
+    font-family: FontAwesome !important;
+    font-size: 22px;
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+input.checkboxClick+span.checkboxPlaceHolder:before {
+    content: "\f096";
+    font-size: 22px;
+    color: #d6d6d6;
+}
+input.checkboxClick:checked+span.checkboxPlaceHolder:before {
+    content: "\f14a";
+    color: #fe6d35;
+}
+.allDpt.ui-autocomplete li{
+  cursor: pointer;
+}
+.allDpt ul li.selected{
+  background-color: rgba(255, 109, 0, 0.05);
+}
+.allDpt ul li.selected:hover{
+   background-image: url(../../images/user/dismiss-orange.png);
+}
+.allDpt ul{
+  display: block !important;
+}
+[data-is-dpt-deleted="true"]:hover .remove-dpt{
+  background-image: none !important;
+}
+.added-dpt{
+  font-weight:bold;
+}
+.dropdown-content .loader{
+      width: 20px;
+    height: 20px;
+    left: 50%;
+    position: relative;
+}
+#associateUserProfile .userDetails .userName{
+  font-size: 34px;
+  display: inline-block;
+}
+[data-is-dpt-deleted="true"]{
+  display: none;
+}
+.dropdown-content {
+  height: 80%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+#assignedDepartments
+{
+  max-height: 565px;
+overflow: scroll;
+width: 379px;
+overflow-x: hidden;
+}
+
+[data-assiged-departments]{
+  width : 100%;
+}
+.searchUser .dropdown-content {
+    max-width: 412px;
+    left: 105px;
+    color: blue;
+    height: 216px;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family: "Gotham 4r",Helvetica,Arial,sans-serif;
+}
+.searchUser .dropdown-content li {
+ color: #038de0;
+ width: 62%;
+    padding: 12px 20px;
+}
+.dropdown-content::-webkit-scrollbar-thumb,.assignedDepartments::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    height: 100px;
+    background: #e2e2e2;
+}
+.dropdown-content::-webkit-scrollbar-track, .assignedDepartments::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background: #e2e2e2;
+    box-shadow: none;
+}
+.dropdown-content::-webkit-scrollbar, .assignedDepartments::-webkit-scrollbar {
+    width: 6px;
+    height: 13px;
+}
+[data-department-lookup], .allDpt ul, #assignedDepartments {
+	overflow-y: auto;
+ 	margin-top: 16px;
+ 	overflow: auto;
+ 	height: 300px;
+}
+
+
+#associateUserProfile .userDetails .userName {
+ height: 10px;
+ object-fit: contain;
+ font-family: 'Gotham 3r',Helvetica,Arial,sans-serif;
+ font-size: 32px;
+ font-weight: 300;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 0.88;
+ letter-spacing: -0.6px;
+ text-align: left;
+ color: #454545;
+}
+.roleContainer, .okta-dtl, .tk-dtl, .title-dtl, .admin-role-dtl {
+ margin-top: 8px;
+}
+.department-popup-open{
+  position: fixed;
+  min-width: 1400px;
+}
+.allDpt ul{
+  color: #038de0;
+}
