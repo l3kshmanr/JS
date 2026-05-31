@@ -1,15 +1,9 @@
 {
-  "url": "https://raw.githubusercontent.com/l3kshmanr/JS/refs/heads/main/xss.yaml",
-  "dom_id": "#swagger-ui",
-  "deepLinking": true,
-  "showExtensions": true,
-  "showCommonExtensions": true,
-  "presets": [
-    SwaggerUIBundle.presets.apis,
-    SwaggerUIStandalonePreset
-  ],
-  "plugins": [
-    SwaggerUIBundle.plugins.DownloadUrl
-  ],
-  "layout": "StandaloneLayout"
+    "url": "https://raw.githubusercontent.com/l3kshmanr/JS/refs/heads/main/xss.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/l3kshmanr/JS/refs/heads/main/xss.yaml",
+            "name": "XSS payload"
+        }
+    ]
 }
