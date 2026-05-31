@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/l3kshmanr/JS/refs/heads/main/xss.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/l3kshmanr/JS/refs/heads/main/xss.yaml",
+            "name": "XSS payload"
+        }
+    ]
+}
